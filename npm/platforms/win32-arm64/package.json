@@ -1,6 +1,6 @@
 {
   "name": "@openscholar/win32-arm64",
-  "version": "0.1.0-alpha.2",
+  "version": "0.1.0-alpha.3",
   "description": "openscholar binary for Windows ARM64",
   "os": ["win32"],
   "cpu": ["arm64"],

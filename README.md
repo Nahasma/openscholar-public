@@ -10,7 +10,7 @@ OpenScholar 目前处于 **Alpha** 阶段，优先验证论文搜索/阅读体�
 
 | 通道 | 版本示例 | 适用场景 | 稳定性承诺 |
 |------|----------|----------|------------|
-| Alpha | `v0.1.0-alpha.2` | 早期试用、功能反馈、集成验证 | 可能有破坏性变更 |
+| Alpha | `v0.1.0-alpha.3` | 早期试用、功能反馈、集成验证 | 可能有破坏性变更 |
 | Beta | `v0.1.0-beta.1` | 更广泛试用、文档和兼容性验证 | 核心 CLI/TUI 行为基本稳定 |
 | Stable | `v1.0.0` | 日常使用和下游集成 | 遵循 SemVer，避免破坏性变更 |
 
@@ -74,7 +74,7 @@ npm publish --tag beta
 当前公开预览仓库为 `Nahasma/openscholar-public`。Alpha 阶段建议固定版本安装：
 
 ```bash
-go install github.com/Nahasma/openscholar-public@v0.1.0-alpha.2
+go install github.com/Nahasma/openscholar-public@v0.1.0-alpha.3
 ```
 
 或从源码构建：

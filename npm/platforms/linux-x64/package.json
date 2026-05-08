@@ -1,6 +1,6 @@
 {
   "name": "@openscholar/linux-x64",
-  "version": "0.1.0-alpha.2",
+  "version": "0.1.0-alpha.3",
   "description": "openscholar binary for Linux x64",
   "os": ["linux"],
   "cpu": ["x64"],
