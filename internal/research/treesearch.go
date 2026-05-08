@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/research/orchestrator"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/research/orchestrator"
 )
 
 // TreeSearchConfig 树搜索配置

@@ -3,7 +3,7 @@ package tui
 import (
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 func TestUpdateMessages_ReplacesAssistantStreamUpdatesByID(t *testing.T) {

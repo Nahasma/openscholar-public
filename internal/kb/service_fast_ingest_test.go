@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/openscholar/openscholar/internal/kb"
-	"github.com/openscholar/openscholar/internal/testutil"
+	"github.com/Nahasma/openscholar-public/internal/kb"
+	"github.com/Nahasma/openscholar-public/internal/testutil"
 )
 
 func TestAddParsedPaper_WritesChunksAndStateTransactionally(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 const promptFileName = "prompt.md"

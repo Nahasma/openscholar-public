@@ -1,6 +1,6 @@
 package tools
 
-import "github.com/openscholar/openscholar/internal/config"
+import "github.com/Nahasma/openscholar-public/internal/config"
 
 // Scholar config helpers — read API keys from config.
 

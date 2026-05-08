@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/command"
 )
 
 type mcpCmd struct{}

@@ -5,10 +5,10 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 type commandCompletionAcceptResult struct {

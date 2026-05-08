@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/openscholar/openscholar/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
 )
 
 // RenderClarificationDialog renders the AskUser clarification dialog.

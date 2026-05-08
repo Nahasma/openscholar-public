@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 // WorkspaceChoice represents the workspace selection result.

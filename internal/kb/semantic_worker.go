@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/openscholar/openscholar/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/db"
 )
 
 const semanticSyncLeaseDuration = 5 * time.Minute

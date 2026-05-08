@@ -2,8 +2,8 @@ package tui
 
 import (
 	tea "github.com/charmbracelet/bubbletea"
-	initwizard "github.com/openscholar/openscholar/internal/init"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	initwizard "github.com/Nahasma/openscholar-public/internal/init"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 // InitWizardChoice represents the init wizard completion.

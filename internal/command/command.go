@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/app"
+	"github.com/Nahasma/openscholar-public/internal/app"
 )
 
 // Context carries the runtime state needed by commands.

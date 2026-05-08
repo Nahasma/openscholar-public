@@ -6,7 +6,7 @@ import (
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 // SearchMatch represents a text match in the chat history.

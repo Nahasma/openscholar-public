@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
 )
 
 // 最小事件集（6 种）

@@ -1,6 +1,6 @@
 package template
 
-import "github.com/openscholar/openscholar/internal/docx"
+import "github.com/Nahasma/openscholar-public/internal/docx"
 
 // AnchorType ranks the locating mechanism by reliability.
 type AnchorType int

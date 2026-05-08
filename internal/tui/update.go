@@ -8,17 +8,17 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/openscholar/openscholar/internal/app"
-	"github.com/openscholar/openscholar/internal/llm/agent"
-	"github.com/openscholar/openscholar/internal/llm/tools"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/picker"
-	"github.com/openscholar/openscholar/internal/pubsub"
-	"github.com/openscholar/openscholar/internal/research"
-	"github.com/openscholar/openscholar/internal/session"
-	"github.com/openscholar/openscholar/internal/task"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/app"
+	"github.com/Nahasma/openscholar-public/internal/llm/agent"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/picker"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/research"
+	"github.com/Nahasma/openscholar-public/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/task"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {

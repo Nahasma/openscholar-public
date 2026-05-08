@@ -1,8 +1,8 @@
 package builtin
 
 import (
-	"github.com/openscholar/openscholar/internal/app"
-	"github.com/openscholar/openscholar/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/app"
+	"github.com/Nahasma/openscholar-public/internal/command"
 )
 
 // RegisterAll registers all built-in commands.

@@ -3,7 +3,7 @@ package command_test
 import (
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/command"
 )
 
 func TestParseInvocation_QuotedArgs(t *testing.T) {

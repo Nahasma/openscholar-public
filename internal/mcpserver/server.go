@@ -8,8 +8,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/openscholar/openscholar/internal/app"
-	"github.com/openscholar/openscholar/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/app"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
 )
 
 // AllowedTools is the hardcoded whitelist of read-only academic tools.

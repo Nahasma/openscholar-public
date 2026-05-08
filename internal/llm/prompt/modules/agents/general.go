@@ -1,6 +1,6 @@
 package agents
 
-import "github.com/openscholar/openscholar/internal/llm/prompt/modules"
+import "github.com/Nahasma/openscholar-public/internal/llm/prompt/modules"
 
 // NewGeneralPromptModule returns the General Agent system prompt module.
 func NewGeneralPromptModule() modules.BaseModule {

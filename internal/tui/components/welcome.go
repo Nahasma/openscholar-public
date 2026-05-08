@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 var (

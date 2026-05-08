@@ -5,7 +5,7 @@ package app
 import (
 	"context"
 
-	"github.com/openscholar/openscholar/internal/task"
+	"github.com/Nahasma/openscholar-public/internal/task"
 )
 
 // initCronSchedulerIfAvailable is a no-op on non-unix platforms.

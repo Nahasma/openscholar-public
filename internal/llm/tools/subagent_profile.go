@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
-	agentcustom "github.com/openscholar/openscholar/internal/llm/agent/custom"
-	"github.com/openscholar/openscholar/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	agentcustom "github.com/Nahasma/openscholar-public/internal/llm/agent/custom"
+	"github.com/Nahasma/openscholar-public/internal/permission"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 // FixResult describes the outcome of an auto-fix attempt.

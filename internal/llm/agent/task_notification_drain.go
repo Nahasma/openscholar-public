@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/task"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/task"
 )
 
 func (a *agent) drainTaskNotifications(ctx context.Context, sessionID string) ([]message.Message, error) {

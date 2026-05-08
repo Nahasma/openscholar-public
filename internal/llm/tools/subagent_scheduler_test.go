@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 func TestSubagentSchedulerWriteSetConflictSerializes(t *testing.T) {

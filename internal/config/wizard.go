@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 // CWStepType defines the type of a config wizard step.

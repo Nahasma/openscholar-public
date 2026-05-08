@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/doctor"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/doctor"
 )
 
 type doctorBuiltinCmd struct{}

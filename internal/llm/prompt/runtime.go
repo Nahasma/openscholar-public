@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 type RuntimePrompt struct {

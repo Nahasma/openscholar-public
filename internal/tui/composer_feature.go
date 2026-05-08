@@ -1,9 +1,9 @@
 package tui
 
 import (
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/picker"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/picker"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 // ComposerFeature groups input, command picker, and file picker state.

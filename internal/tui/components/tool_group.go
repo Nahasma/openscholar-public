@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 // Lazily initialized styles for tool group rendering.

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/fileop"
-	"github.com/openscholar/openscholar/internal/util"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/util"
 )
 
 // FileReadEvent 带 session 隔离的文件读取事件

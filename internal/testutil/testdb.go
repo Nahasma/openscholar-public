@@ -10,7 +10,7 @@ import (
 	_ "github.com/ncruces/go-sqlite3/embed"
 	"github.com/pressly/goose/v3"
 
-	"github.com/openscholar/openscholar/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/db"
 )
 
 var gooseMu sync.Mutex

@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
 )
 
 // ResearchMode context key and helper

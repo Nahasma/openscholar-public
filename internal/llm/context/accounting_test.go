@@ -3,7 +3,7 @@ package context
 import (
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 func TestUsageMath(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 const memorySelectorMaxVisible = 10

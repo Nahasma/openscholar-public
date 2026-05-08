@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 // AuthSource identifies where an API key was resolved from.

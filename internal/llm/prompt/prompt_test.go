@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 func loadPromptTestConfig(t *testing.T, orchestrationEnabled bool) {

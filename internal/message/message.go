@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/openscholar/openscholar/internal/db"
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
 )
 
 type CreateMessageParams struct {

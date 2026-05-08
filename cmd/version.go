@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/openscholar/openscholar/internal/version"
+	"github.com/Nahasma/openscholar-public/internal/version"
 	"github.com/spf13/cobra"
 )
 

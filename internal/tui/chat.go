@@ -10,15 +10,15 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/llm/agent"
-	"github.com/openscholar/openscholar/internal/llm/tools"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/picker"
-	"github.com/openscholar/openscholar/internal/pubsub"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/llm/agent"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/picker"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 func (m Model) sendMessage() (tea.Model, tea.Cmd) {

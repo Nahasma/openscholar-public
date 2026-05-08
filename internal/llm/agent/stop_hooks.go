@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
 )
 
 // defaultMaxIterationHook is the default max iteration limit for the stop controller.

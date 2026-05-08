@@ -12,13 +12,13 @@ import (
 
 	_ "github.com/ncruces/go-sqlite3/driver"
 	_ "github.com/ncruces/go-sqlite3/embed"
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/db"
-	agentcustom "github.com/openscholar/openscholar/internal/llm/agent/custom"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/session"
-	"github.com/openscholar/openscholar/internal/task"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/db"
+	agentcustom "github.com/Nahasma/openscholar-public/internal/llm/agent/custom"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/task"
 	"github.com/pressly/goose/v3"
 )
 

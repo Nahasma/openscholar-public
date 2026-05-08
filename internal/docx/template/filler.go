@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/beevik/etree"
-	"github.com/openscholar/openscholar/internal/docx"
+	"github.com/Nahasma/openscholar-public/internal/docx"
 )
 
 // FillResult describes the outcome of a template fill operation.

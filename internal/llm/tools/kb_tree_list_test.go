@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/kb"
+	"github.com/Nahasma/openscholar-public/internal/kb"
 )
 
 type kbTreeListFakeService struct {

@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/openscholar/openscholar/internal/db"
-	"github.com/openscholar/openscholar/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
 )
 
 // BatchIngester manages a worker pool for importing multiple documents.

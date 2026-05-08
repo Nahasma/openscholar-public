@@ -3,7 +3,7 @@ package components
 import (
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 func TestFindMatches_Basic(t *testing.T) {

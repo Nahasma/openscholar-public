@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/openscholar/openscholar/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
 )
 
 // BundledFS holds embedded system skills, injected from main.go.

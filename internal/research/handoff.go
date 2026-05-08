@@ -10,7 +10,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/openscholar/openscholar/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
 )
 
 // HandoffTask 研究子任务（存储在 .handoff/tasks.jsonl）

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/openscholar/openscholar/internal/kb"
+	"github.com/Nahasma/openscholar-public/internal/kb"
 )
 
 type semanticWorkerTestIndexer struct {

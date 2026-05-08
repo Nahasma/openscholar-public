@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/llm/web"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/web"
 )
 
 // WebSearchBackend returns a web.SearchProvider appropriate for the given

@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	"github.com/google/uuid"
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/db"
-	"github.com/openscholar/openscholar/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
 )
 
 var ErrorPermissionDenied = errors.New("permission denied")

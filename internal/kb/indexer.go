@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/docx"
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/docx"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 // PageIndexError represents a structured error from the PageIndex Python wrapper.

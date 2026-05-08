@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/evolution"
+	"github.com/Nahasma/openscholar-public/internal/evolution"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,14 +5,14 @@ import (
 	"strings"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/picker"
-	"github.com/openscholar/openscholar/internal/research"
-	"github.com/openscholar/openscholar/internal/session"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/picker"
+	"github.com/Nahasma/openscholar-public/internal/research"
+	"github.com/Nahasma/openscholar-public/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 // resetSessionState clears all session-scoped state when switching or creating sessions.

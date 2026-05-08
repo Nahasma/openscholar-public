@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/openscholar/openscholar/internal/picker"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/picker"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 // TemplateChoice represents the completed template selection.

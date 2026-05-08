@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 // PageIndexHealth captures the health status of the PageIndex environment.

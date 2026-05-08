@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/skillbank"
+	"github.com/Nahasma/openscholar-public/internal/skillbank"
 )
 
 func TestSkillManageTool_UpdateCanClearRichMetadata(t *testing.T) {

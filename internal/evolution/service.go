@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/skillbank"
+	"github.com/Nahasma/openscholar-public/internal/skillbank"
 )
 
 // Service 技能进化服务接口

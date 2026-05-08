@@ -7,11 +7,11 @@ import (
 	"strings"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/openscholar/openscholar/internal/config"
-	initwizard "github.com/openscholar/openscholar/internal/init"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/picker"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	initwizard "github.com/Nahasma/openscholar-public/internal/init"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/picker"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 // processOverlayResult handles Model-level side effects when an overlay

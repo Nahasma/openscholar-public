@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/openscholar/openscholar/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
 )
 
 const tasksFileName = "scheduled_tasks.json"

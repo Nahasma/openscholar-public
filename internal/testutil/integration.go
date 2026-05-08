@@ -5,16 +5,16 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/bib"
-	"github.com/openscholar/openscholar/internal/kb"
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/llm/provider"
-	"github.com/openscholar/openscholar/internal/llm/tools"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/pubsub"
-	"github.com/openscholar/openscholar/internal/research"
-	"github.com/openscholar/openscholar/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/bib"
+	"github.com/Nahasma/openscholar-public/internal/kb"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/provider"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/research"
+	"github.com/Nahasma/openscholar-public/internal/session"
 )
 
 // TestServices bundles the core services that can be constructed without a

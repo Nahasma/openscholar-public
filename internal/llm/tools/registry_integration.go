@@ -1,8 +1,8 @@
 package tools
 
 import (
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/llm/tools/codeagent"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools/codeagent"
 )
 
 // registerIntegrationTools builds the CodeAgent registry and returns its tool.

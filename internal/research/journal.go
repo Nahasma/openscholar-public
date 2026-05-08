@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/research/orchestrator"
+	"github.com/Nahasma/openscholar-public/internal/research/orchestrator"
 )
 
 const journalFileName = "experiment-journal.jsonl"

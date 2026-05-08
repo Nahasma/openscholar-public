@@ -7,7 +7,7 @@ import (
 
 	mcpClient "github.com/mark3labs/mcp-go/client"
 	mcpTypes "github.com/mark3labs/mcp-go/mcp"
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 // Client manages connections to external MCP servers.

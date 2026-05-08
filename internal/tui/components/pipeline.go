@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/research"
+	"github.com/Nahasma/openscholar-public/internal/research"
 )
 
 // RenderPipelineBar 渲染紧凑模式的流水线进度条（单行，嵌入状态栏）

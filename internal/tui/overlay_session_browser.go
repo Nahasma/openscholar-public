@@ -2,8 +2,8 @@ package tui
 
 import (
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/openscholar/openscholar/internal/session"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 // SessionBrowserChoice represents the user's session browser action.

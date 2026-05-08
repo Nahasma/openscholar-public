@@ -7,9 +7,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/cron"
-	"github.com/openscholar/openscholar/internal/task"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/cron"
+	"github.com/Nahasma/openscholar-public/internal/task"
 )
 
 // initCronSchedulerIfAvailable creates and starts the cron scheduler on unix platforms.

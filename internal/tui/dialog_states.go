@@ -1,13 +1,13 @@
 package tui
 
 import (
-	"github.com/openscholar/openscholar/internal/config"
-	initwizard "github.com/openscholar/openscholar/internal/init"
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/llm/tools"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/picker"
-	"github.com/openscholar/openscholar/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	initwizard "github.com/Nahasma/openscholar-public/internal/init"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/picker"
+	"github.com/Nahasma/openscholar-public/internal/session"
 )
 
 // DialogStates is the container for all dialog sub-states.

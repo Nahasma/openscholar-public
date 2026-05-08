@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/pubsub"
-	"github.com/openscholar/openscholar/internal/testutil"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/testutil"
 )
 
 func TestPermission_AutoApproveSession(t *testing.T) {

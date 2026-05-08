@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/plan"
-	"github.com/openscholar/openscholar/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/plan"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
 )
 
 func TestExitPlanModePublishesCanonicalPlanAndApprovedEnvelope(t *testing.T) {

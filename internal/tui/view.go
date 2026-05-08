@@ -7,13 +7,13 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/openscholar/openscholar/internal/config"
-	initwizard "github.com/openscholar/openscholar/internal/init"
-	llmcontext "github.com/openscholar/openscholar/internal/llm/context"
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/tui/components"
-	"github.com/openscholar/openscholar/internal/version"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	initwizard "github.com/Nahasma/openscholar-public/internal/init"
+	llmcontext "github.com/Nahasma/openscholar-public/internal/llm/context"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/version"
 )
 
 type screenVM struct {

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
 )
 
 // Manifest records the full execution metadata for a node run.

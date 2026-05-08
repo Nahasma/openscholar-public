@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 func TestMaskSecret(t *testing.T) {

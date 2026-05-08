@@ -2,8 +2,8 @@ package tui
 
 import (
 	"github.com/charmbracelet/bubbles/viewport"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 const (

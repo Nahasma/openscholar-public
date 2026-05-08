@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/app"
-	"github.com/openscholar/openscholar/internal/pubsub"
-	"github.com/openscholar/openscholar/internal/research"
-	"github.com/openscholar/openscholar/internal/testutil"
+	"github.com/Nahasma/openscholar-public/internal/app"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/research"
+	"github.com/Nahasma/openscholar-public/internal/testutil"
 )
 
 func TestBuildResearchContext_UsesValidResearchPipelineActions(t *testing.T) {

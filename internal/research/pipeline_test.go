@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/openscholar/openscholar/internal/db"
-	"github.com/openscholar/openscholar/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
 )
 
 var testGooseMu sync.Mutex

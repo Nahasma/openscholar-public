@@ -1,6 +1,6 @@
 package modules
 
-import "github.com/openscholar/openscholar/internal/config"
+import "github.com/Nahasma/openscholar-public/internal/config"
 
 // NewPaperTypeModule returns a prompt module with type-specific quality criteria.
 // Priority 71: loads after tools (70), before cross_reading (72).

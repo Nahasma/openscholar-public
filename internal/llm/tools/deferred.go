@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/openscholar/openscholar/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/permission"
 )
 
 // ToolBrief is a compact tool summary for system prompt injection.

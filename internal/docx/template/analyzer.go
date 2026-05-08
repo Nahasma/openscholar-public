@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/beevik/etree"
-	"github.com/openscholar/openscholar/internal/docx"
+	"github.com/Nahasma/openscholar-public/internal/docx"
 )
 
 // Analyze inspects a template document and returns its TemplateSpec,

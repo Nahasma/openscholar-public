@@ -7,7 +7,7 @@ import (
 	"sort"
 
 	"github.com/beevik/etree"
-	"github.com/openscholar/openscholar/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
 )
 
 // Package represents an OOXML document package (docx/dotx).

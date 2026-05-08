@@ -8,7 +8,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/openscholar/openscholar/internal/docx"
+	"github.com/Nahasma/openscholar-public/internal/docx"
 )
 
 // DomainRules returns all P1 domain-specific rules.

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/llm/web"
+	"github.com/Nahasma/openscholar-public/internal/llm/web"
 )
 
 // TestWebFetch_RealHTTP tests the full fetch pipeline against a local HTTP server.

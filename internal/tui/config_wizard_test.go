@@ -6,13 +6,13 @@ import (
 	"testing"
 
 	tea "github.com/charmbracelet/bubbletea"
-	appcore "github.com/openscholar/openscholar/internal/app"
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/picker"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	appcore "github.com/Nahasma/openscholar-public/internal/app"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/picker"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 func loadWizardConfig(t *testing.T) {

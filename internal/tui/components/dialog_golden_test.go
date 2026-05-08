@@ -3,8 +3,8 @@ package components
 import (
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/llm/tools"
-	"github.com/openscholar/openscholar/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/permission"
 )
 
 // ─── Permission Dialog ───────────────────────────────────────────────────────

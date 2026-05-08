@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/skillbank"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/skillbank"
 )
 
 type skillImportCmd struct{}

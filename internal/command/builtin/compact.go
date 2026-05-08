@@ -1,6 +1,6 @@
 package builtin
 
-import "github.com/openscholar/openscholar/internal/command"
+import "github.com/Nahasma/openscholar-public/internal/command"
 
 type compactCmd struct{}
 

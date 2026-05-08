@@ -1,6 +1,6 @@
 package tui
 
-import "github.com/openscholar/openscholar/internal/debug"
+import "github.com/Nahasma/openscholar-public/internal/debug"
 
 func anchorSummary(anchor *messageSliceAnchor) string {
 	if anchor == nil {

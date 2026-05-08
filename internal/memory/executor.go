@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/db"
-	"github.com/openscholar/openscholar/internal/skillbank"
+	"github.com/Nahasma/openscholar-public/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/skillbank"
 )
 
 const executorPromptTemplate = `You are a memory management executor. Apply the selected skills to the input

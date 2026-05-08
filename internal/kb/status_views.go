@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/openscholar/openscholar/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/db"
 )
 
 // PaperListItem is the bulk KB list projection used to avoid per-paper status queries.

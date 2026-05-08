@@ -3,8 +3,8 @@ package tui
 import (
 	"fmt"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 func (m *Model) saveFullAndApplyRuntimeConfig(newCfg *config.Config) (output string, summary string, applied bool) {

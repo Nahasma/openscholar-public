@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 func TestResolveAPIKey_EnvOverridesConfig(t *testing.T) {

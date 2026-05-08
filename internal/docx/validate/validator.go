@@ -3,7 +3,7 @@ package validate
 import (
 	"sort"
 
-	"github.com/openscholar/openscholar/internal/docx"
+	"github.com/Nahasma/openscholar-public/internal/docx"
 )
 
 // DiagLevel indicates the severity of a diagnostic.

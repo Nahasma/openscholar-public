@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/openai/openai-go"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 func TestMapOpenAIFinishReason(t *testing.T) {

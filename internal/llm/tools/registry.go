@@ -1,13 +1,13 @@
 package tools
 
 import (
-	"github.com/openscholar/openscholar/internal/kb"
-	"github.com/openscholar/openscholar/internal/llm/tools/codeagent"
-	"github.com/openscholar/openscholar/internal/llm/web"
-	"github.com/openscholar/openscholar/internal/memory"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/kb"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools/codeagent"
+	"github.com/Nahasma/openscholar-public/internal/llm/web"
+	"github.com/Nahasma/openscholar-public/internal/memory"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/session"
 )
 
 // KBServices holds knowledge base dependencies for tool registration.

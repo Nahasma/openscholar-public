@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/fileop"
-	"github.com/openscholar/openscholar/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/permission"
 )
 
 type grepTool struct{ permissions permission.Service }

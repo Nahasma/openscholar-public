@@ -3,7 +3,7 @@ package agent
 import (
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 func TestBuildToolOutcomes_ParsesDurableProgressAndArtifactPaths(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/llm/tools"
-	"github.com/openscholar/openscholar/internal/skillbank"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/skillbank"
 )
 
 type skillCommandTestService struct {

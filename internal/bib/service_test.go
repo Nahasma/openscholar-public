@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/openscholar/openscholar/internal/bib"
-	"github.com/openscholar/openscholar/internal/session"
-	"github.com/openscholar/openscholar/internal/testutil"
+	"github.com/Nahasma/openscholar-public/internal/bib"
+	"github.com/Nahasma/openscholar-public/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/testutil"
 )
 
 func setup(t *testing.T) (bib.Service, session.Service) {

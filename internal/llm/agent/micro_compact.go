@@ -3,7 +3,7 @@ package agent
 import (
 	"fmt"
 
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 // MicroCompactConfig configures enhanced micro-compact behavior.

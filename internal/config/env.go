@@ -3,7 +3,7 @@ package config
 import (
 	"os"
 
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 func mergeEnvProviders(cfg *Config) {

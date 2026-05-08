@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/research"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/research"
 )
 
 type researchCmd struct{}

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/command"
 )
 
 func TestHelpOverviewUsesCommandSpecs(t *testing.T) {

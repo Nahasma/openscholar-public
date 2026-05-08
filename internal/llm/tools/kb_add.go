@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/openscholar/openscholar/internal/kb"
+	"github.com/Nahasma/openscholar-public/internal/kb"
 )
 
 // supportedDocExtensions are the file types KBAdd can index.

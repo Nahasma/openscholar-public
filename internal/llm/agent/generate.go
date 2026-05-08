@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/llm/agent/custom"
-	"github.com/openscholar/openscholar/internal/llm/provider"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/llm/agent/custom"
+	"github.com/Nahasma/openscholar-public/internal/llm/provider"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 // generateResult is the JSON structure returned by the LLM.

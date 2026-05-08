@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/debug"
-	llmcontext "github.com/openscholar/openscholar/internal/llm/context"
-	"github.com/openscholar/openscholar/internal/llm/provider"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/debug"
+	llmcontext "github.com/Nahasma/openscholar-public/internal/llm/context"
+	"github.com/Nahasma/openscholar-public/internal/llm/provider"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 func debugLoggerFromCtx(ctx context.Context) *debug.SessionLogger {

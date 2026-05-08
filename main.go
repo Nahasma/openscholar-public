@@ -6,9 +6,9 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/openscholar/openscholar/cmd"
-	"github.com/openscholar/openscholar/internal/skillbank"
-	"github.com/openscholar/openscholar/internal/template"
+	"github.com/Nahasma/openscholar-public/cmd"
+	"github.com/Nahasma/openscholar-public/internal/skillbank"
+	"github.com/Nahasma/openscholar-public/internal/template"
 )
 
 //go:embed all:templates

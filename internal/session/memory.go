@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
 )
 
 // MemoryTrigger 触发条件配置

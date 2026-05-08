@@ -4,8 +4,8 @@ import (
 	"math"
 	"unicode/utf8"
 
-	"github.com/openscholar/openscholar/internal/llm/provider"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/llm/provider"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 type TokenCountEstimate struct {

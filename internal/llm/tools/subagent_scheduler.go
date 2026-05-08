@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 // SubagentScheduler coordinates subagent fanout within a parent session.

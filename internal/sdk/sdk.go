@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/app"
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/db"
-	"github.com/openscholar/openscholar/internal/llm/agent"
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/llm/provider"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/app"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/llm/agent"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/provider"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 // Options configures an SDK session.

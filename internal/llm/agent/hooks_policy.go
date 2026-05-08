@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/hooks"
+	"github.com/Nahasma/openscholar-public/internal/hooks"
 )
 
 func (a *agent) runPolicyHookAsync(ctx context.Context, event hooks.Event, input hooks.Input) {

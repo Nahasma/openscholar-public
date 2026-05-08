@@ -1,6 +1,6 @@
 package agents
 
-import "github.com/openscholar/openscholar/internal/llm/prompt/modules"
+import "github.com/Nahasma/openscholar-public/internal/llm/prompt/modules"
 
 // NewCoordinatorPromptModule returns the Coordinator Agent system prompt module.
 func NewCoordinatorPromptModule() modules.BaseModule {

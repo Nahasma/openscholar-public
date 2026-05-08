@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	taskpkg "github.com/openscholar/openscholar/internal/task"
+	taskpkg "github.com/Nahasma/openscholar-public/internal/task"
 )
 
 // asyncTask represents a single background tool execution.

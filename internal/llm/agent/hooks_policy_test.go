@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/hooks"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/hooks"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 type recordedHookEvent struct {

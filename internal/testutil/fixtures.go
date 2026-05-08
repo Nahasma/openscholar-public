@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/bib"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/bib"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/session"
 )
 
 // CreateTestSession creates a session with a default title for testing.

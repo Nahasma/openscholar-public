@@ -3,7 +3,7 @@ package validate
 import (
 	"fmt"
 
-	"github.com/openscholar/openscholar/internal/docx"
+	"github.com/Nahasma/openscholar-public/internal/docx"
 )
 
 // FormatRules returns all P0 format rules.

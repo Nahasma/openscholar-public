@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 // ─── helpers ─────────────────────────────────────────────────────────────────

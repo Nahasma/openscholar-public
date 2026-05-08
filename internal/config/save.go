@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/openscholar/openscholar/internal/fileop"
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 // ConfigFilePath returns the absolute path to the project config file.

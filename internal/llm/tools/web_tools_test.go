@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/llm/web"
+	"github.com/Nahasma/openscholar-public/internal/llm/web"
 )
 
 // TestWebSearchTool_Registration verifies the tool registers and reports availability.

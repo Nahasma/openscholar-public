@@ -1,4 +1,4 @@
-module github.com/openscholar/openscholar
+module github.com/Nahasma/openscholar-public
 
 go 1.24.0
 

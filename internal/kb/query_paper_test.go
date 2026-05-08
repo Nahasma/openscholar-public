@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/kb"
-	"github.com/openscholar/openscholar/internal/testutil"
+	"github.com/Nahasma/openscholar-public/internal/kb"
+	"github.com/Nahasma/openscholar-public/internal/testutil"
 )
 
 type parsedPaperWriter interface {

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/db"
 )
 
 type semanticTaskInput struct {

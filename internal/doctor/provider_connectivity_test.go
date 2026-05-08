@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/llm/connectivity"
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/llm/connectivity"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 func TestFormatProviderConnectivityReport_MiniMaxMetadataAndNoKeyLeak(t *testing.T) {

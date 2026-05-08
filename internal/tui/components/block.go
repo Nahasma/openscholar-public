@@ -3,7 +3,7 @@ package components
 import (
 	"fmt"
 
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 // ExpandState represents the expand/collapse state of a tool call or thinking block.

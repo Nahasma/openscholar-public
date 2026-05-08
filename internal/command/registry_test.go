@@ -3,8 +3,8 @@ package command_test
 import (
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/command/builtin"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/command/builtin"
 )
 
 type specTestCommand struct {

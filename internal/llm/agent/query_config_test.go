@@ -3,7 +3,7 @@ package agent
 import (
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 func TestBuildQueryConfig_DefaultUsesAbsoluteAutoCompactBuffer(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/llm/tools/codeagent"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools/codeagent"
 )
 
 // mockCodeProvider implements codeagent.CodeAgentProvider for testing.

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/db"
 )
 
 const (

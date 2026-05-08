@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/skillbank"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/skillbank"
 )
 
 // LoadSkillBankCommands registers user-invocable SkillBank skills as slash commands.

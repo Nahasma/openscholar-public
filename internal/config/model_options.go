@@ -3,7 +3,7 @@ package config
 import (
 	"sort"
 
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 // ModelFromConfig converts a persisted provider model entry into runtime model

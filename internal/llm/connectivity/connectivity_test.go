@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 func TestDiscoverModels_OpenAICompatible(t *testing.T) {

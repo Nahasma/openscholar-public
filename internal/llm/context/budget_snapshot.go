@@ -1,6 +1,6 @@
 package context
 
-import "github.com/openscholar/openscholar/internal/message"
+import "github.com/Nahasma/openscholar-public/internal/message"
 
 // BudgetSnapshot captures request-time context budget state before a provider call.
 type BudgetSnapshot struct {

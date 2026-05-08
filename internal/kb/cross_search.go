@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/db"
 )
 
 // CrossSearchResult contains the synthesized answer from searching across all papers.

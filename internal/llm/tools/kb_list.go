@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/kb"
+	"github.com/Nahasma/openscholar-public/internal/kb"
 )
 
 type kbListTool struct {

@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 func TestCommandActions_NonTerminatingActionsContinueToOutput(t *testing.T) {

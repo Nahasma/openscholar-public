@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/llm/minimax"
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/llm/tools"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/llm/minimax"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 type EventType string

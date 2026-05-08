@@ -14,8 +14,8 @@ import (
 	"github.com/pressly/goose/v3"
 
 	"github.com/google/uuid"
-	"github.com/openscholar/openscholar/internal/db"
-	"github.com/openscholar/openscholar/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

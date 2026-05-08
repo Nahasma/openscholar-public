@@ -1,6 +1,6 @@
 package custom
 
-import "github.com/openscholar/openscholar/internal/command"
+import "github.com/Nahasma/openscholar-public/internal/command"
 
 // CustomCommand implements command.Command for user-defined markdown commands.
 type CustomCommand struct {

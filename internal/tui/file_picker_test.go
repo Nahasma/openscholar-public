@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/openscholar/openscholar/internal/picker"
+	"github.com/Nahasma/openscholar-public/internal/picker"
 )
 
 func TestFilePickerActivatesViaModelUpdateKeyMsg(t *testing.T) {

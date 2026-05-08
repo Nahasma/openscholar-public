@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
 )
 
 // FileCheckpoint represents a snapshot of a file taken before a write operation.

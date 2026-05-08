@@ -1,6 +1,6 @@
 package tui
 
-import "github.com/openscholar/openscholar/internal/tui/components"
+import "github.com/Nahasma/openscholar-public/internal/tui/components"
 
 // SearchFeature groups history search and text search state.
 type SearchFeature struct {

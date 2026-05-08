@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/research"
+	"github.com/Nahasma/openscholar-public/internal/research"
 )
 
 type researchTaskTool struct {

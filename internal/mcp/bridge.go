@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	mcpTypes "github.com/mark3labs/mcp-go/mcp"
-	"github.com/openscholar/openscholar/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
 )
 
 // mcpBridgeTool wraps an MCP tool as a BaseTool for the Agent tool registry.

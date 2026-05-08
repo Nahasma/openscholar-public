@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/memory"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/memory"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 type fakeMemoryService struct {

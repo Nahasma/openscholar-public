@@ -1,6 +1,6 @@
 package testutil
 
-import "github.com/openscholar/openscholar/internal/permission"
+import "github.com/Nahasma/openscholar-public/internal/permission"
 
 // AutoApprovePermission creates a permission.Service that auto-approves all requests.
 func AutoApprovePermission(sessionID string) permission.Service {

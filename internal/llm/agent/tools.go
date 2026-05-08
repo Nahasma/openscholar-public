@@ -10,12 +10,12 @@ import (
 
 	"encoding/json"
 
-	"github.com/openscholar/openscholar/internal/debug"
-	"github.com/openscholar/openscholar/internal/hooks"
-	"github.com/openscholar/openscholar/internal/llm/tools"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/debug"
+	"github.com/Nahasma/openscholar-public/internal/hooks"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
 )
 
 const defaultMaxResultBytes = 20 * 1024 // 20 KB

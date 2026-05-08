@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/permission"
 )
 
 type bashTool struct {

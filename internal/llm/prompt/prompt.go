@@ -6,11 +6,11 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
-	initwizard "github.com/openscholar/openscholar/internal/init"
-	"github.com/openscholar/openscholar/internal/llm/prompt/modules"
-	"github.com/openscholar/openscholar/internal/llm/prompt/modules/agents"
-	"github.com/openscholar/openscholar/internal/template"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	initwizard "github.com/Nahasma/openscholar-public/internal/init"
+	"github.com/Nahasma/openscholar-public/internal/llm/prompt/modules"
+	"github.com/Nahasma/openscholar-public/internal/llm/prompt/modules/agents"
+	"github.com/Nahasma/openscholar-public/internal/template"
 )
 
 // skillMetaLoader is set by the app layer to provide skill metadata without

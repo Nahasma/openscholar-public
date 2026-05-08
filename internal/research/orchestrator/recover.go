@@ -1,6 +1,6 @@
 package orchestrator
 
-import "github.com/openscholar/openscholar/internal/config"
+import "github.com/Nahasma/openscholar-public/internal/config"
 
 // Failure type constants for ClassifyFailure.
 const (

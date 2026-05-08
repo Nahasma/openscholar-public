@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/kb"
-	"github.com/openscholar/openscholar/internal/testutil"
+	"github.com/Nahasma/openscholar-public/internal/kb"
+	"github.com/Nahasma/openscholar-public/internal/testutil"
 )
 
 func TestDeepRead_MapReduceAndTaskLifecycle(t *testing.T) {

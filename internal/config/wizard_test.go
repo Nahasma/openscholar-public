@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/hooks"
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/hooks"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 func TestConfigWizardBuildConfig_PreservesExtendedFields(t *testing.T) {

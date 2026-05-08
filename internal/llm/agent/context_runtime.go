@@ -7,16 +7,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
-	llmcontext "github.com/openscholar/openscholar/internal/llm/context"
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/llm/prompt"
-	"github.com/openscholar/openscholar/internal/llm/prompt/modules"
-	"github.com/openscholar/openscholar/internal/llm/provider"
-	"github.com/openscholar/openscholar/internal/llm/tools"
-	"github.com/openscholar/openscholar/internal/memory"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	llmcontext "github.com/Nahasma/openscholar-public/internal/llm/context"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/prompt"
+	"github.com/Nahasma/openscholar-public/internal/llm/prompt/modules"
+	"github.com/Nahasma/openscholar-public/internal/llm/provider"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/memory"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/permission"
 )
 
 type requestRuntimeCtxKeyType struct{}

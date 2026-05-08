@@ -3,8 +3,8 @@ package initwizard
 import (
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 func TestModelsForProviderUsesStableMiniMaxOrder(t *testing.T) {

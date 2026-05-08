@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 // Status represents the result of a dependency check.

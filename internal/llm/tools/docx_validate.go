@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/docx"
-	"github.com/openscholar/openscholar/internal/docx/validate"
-	"github.com/openscholar/openscholar/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/docx"
+	"github.com/Nahasma/openscholar-public/internal/docx/validate"
+	"github.com/Nahasma/openscholar-public/internal/permission"
 )
 
 type docxValidateTool struct {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/db"
 )
 
 // LLMCaller is a function type that makes a simple LLM call.

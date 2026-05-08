@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"database/sql"
-	"github.com/openscholar/openscholar/internal/db"
-	"github.com/openscholar/openscholar/internal/kb"
-	"github.com/openscholar/openscholar/internal/testutil"
+	"github.com/Nahasma/openscholar-public/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/kb"
+	"github.com/Nahasma/openscholar-public/internal/testutil"
 )
 
 func TestKBRepair_DryRunAndApply(t *testing.T) {

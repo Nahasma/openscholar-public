@@ -2,9 +2,9 @@ package tui
 
 import (
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/llm/models"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 // ModelSelectChoice represents the selected model.

@@ -3,7 +3,7 @@ package agent
 import (
 	"math"
 
-	"github.com/openscholar/openscholar/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/config"
 )
 
 // QueryConfig 在 processGeneration() 入口一次性构建，整个循环内不可变。

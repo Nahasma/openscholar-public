@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	"github.com/coder/websocket"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
 )
 
 // clientMessage is sent from the browser to the server.

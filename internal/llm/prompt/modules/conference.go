@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/template"
+	"github.com/Nahasma/openscholar-public/internal/template"
 )
 
 // NewConferenceModule returns a conference-specific prompt module based on the detected template.

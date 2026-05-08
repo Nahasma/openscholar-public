@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/doctor"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/doctor"
 	"github.com/spf13/cobra"
 )
 

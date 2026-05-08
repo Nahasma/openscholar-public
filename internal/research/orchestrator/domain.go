@@ -1,6 +1,6 @@
 package orchestrator
 
-import "github.com/openscholar/openscholar/internal/config"
+import "github.com/Nahasma/openscholar-public/internal/config"
 
 // DomainPresets contains built-in domain profiles for common scientific disciplines.
 // Use "general" as the default for unknown or unspecified domains.

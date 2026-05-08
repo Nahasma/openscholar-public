@@ -3,7 +3,7 @@ package cmd
 import (
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 func TestSplitRootProviderModel(t *testing.T) {

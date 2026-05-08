@@ -7,7 +7,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/openscholar/openscholar/internal/app"
+	"github.com/Nahasma/openscholar-public/internal/app"
 )
 
 // Server serves the Web GUI and API endpoints.

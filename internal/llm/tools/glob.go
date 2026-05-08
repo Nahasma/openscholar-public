@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/bmatcuk/doublestar/v4"
-	"github.com/openscholar/openscholar/internal/fileop"
-	"github.com/openscholar/openscholar/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/permission"
 )
 
 type globTool struct{ permissions permission.Service }

@@ -7,7 +7,7 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const os = require("os");
-const { execSync } = require("child_process");
+const { execFileSync, execSync } = require("child_process");
 
 const PLATFORM_MAP = {
   "darwin-arm64": "@openscholar/darwin-arm64",
@@ -29,6 +29,25 @@ const GORELEASER_MAP = {
 
 function getBinaryName() {
   return process.platform === "win32" ? "openscholar.exe" : "openscholar";
+}
+
+function installFromSource(version) {
+  const destDir = path.join(os.homedir(), ".openscholar", "bin");
+  fs.mkdirSync(destDir, { recursive: true });
+  const modulePath = `github.com/Nahasma/openscholar-public@v${version}`;
+
+  try {
+    execFileSync("go", ["install", modulePath], {
+      stdio: "inherit",
+      env: { ...process.env, GOBIN: destDir },
+    });
+    console.log(`openscholar v${version} built from source into ${destDir}`);
+  } catch (err) {
+    console.warn(
+      `Warning: Source install failed: ${err.message}\n` +
+        `Install Go 1.23+ and run: go install ${modulePath}`
+    );
+  }
 }
 
 function binaryExists() {
@@ -87,19 +106,21 @@ async function install() {
     return;
   }
 
+  const version = getVersion();
+  const sourceInstall = `go install github.com/Nahasma/openscholar-public@v${version}`;
   const platformKey = `${process.platform}-${process.arch}`;
   const archiveName = GORELEASER_MAP[platformKey];
 
   if (!archiveName) {
     console.warn(
       `Warning: No prebuilt binary available for ${platformKey}. ` +
-        "You can build from source with: go install github.com/openscholar/openscholar@latest"
+        `Trying source install with: ${sourceInstall}`
     );
+    installFromSource(version);
     return;
   }
 
-  const version = getVersion();
-  const url = `https://github.com/openscholar/openscholar/releases/download/v${version}/${archiveName}`;
+  const url = `https://github.com/Nahasma/openscholar-public/releases/download/v${version}/${archiveName}`;
 
   console.log(`Downloading openscholar v${version} for ${platformKey}...`);
 
@@ -143,8 +164,9 @@ async function install() {
   } catch (err) {
     console.warn(
       `Warning: Failed to download openscholar binary: ${err.message}\n` +
-        "You can install manually: go install github.com/openscholar/openscholar@latest"
+        `Trying source install with: ${sourceInstall}`
     );
+    installFromSource(version);
   }
 }
 

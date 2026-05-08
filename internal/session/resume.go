@@ -7,8 +7,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/openscholar/openscholar/internal/db"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 type ResolveMode string

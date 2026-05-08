@@ -1,6 +1,6 @@
 package config
 
-import "github.com/openscholar/openscholar/internal/llm/models"
+import "github.com/Nahasma/openscholar-public/internal/llm/models"
 
 // DefaultExperimentConfig returns the default ExperimentConfig values.
 func DefaultExperimentConfig() ExperimentConfig {

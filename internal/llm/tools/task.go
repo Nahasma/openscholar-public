@@ -9,14 +9,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/hooks"
-	agentcustom "github.com/openscholar/openscholar/internal/llm/agent/custom"
-	"github.com/openscholar/openscholar/internal/llm/tools/codeagent"
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/session"
-	"github.com/openscholar/openscholar/internal/task"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/hooks"
+	agentcustom "github.com/Nahasma/openscholar-public/internal/llm/agent/custom"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools/codeagent"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/task"
 )
 
 // AgentRunner is the function signature for running a sub-agent.

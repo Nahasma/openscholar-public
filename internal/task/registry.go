@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/pubsub"
+	"github.com/Nahasma/openscholar-public/internal/pubsub"
 )
 
 // gcThreshold is the minimum time after EndedAt before a completed/failed,

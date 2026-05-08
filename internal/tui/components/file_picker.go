@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/picker"
+	"github.com/Nahasma/openscholar-public/internal/picker"
 )
 
 // RenderFilePicker renders a file selection menu in the same style as the command picker.

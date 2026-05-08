@@ -1,6 +1,6 @@
 package agents
 
-import "github.com/openscholar/openscholar/internal/llm/prompt/modules"
+import "github.com/Nahasma/openscholar-public/internal/llm/prompt/modules"
 
 // NewVerifyPromptModule returns the Verify Agent system prompt module.
 func NewVerifyPromptModule() modules.BaseModule {

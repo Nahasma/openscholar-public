@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/llm/web"
-	"github.com/openscholar/openscholar/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/llm/web"
+	"github.com/Nahasma/openscholar-public/internal/permission"
 )
 
 type webSearchTool struct {

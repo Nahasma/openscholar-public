@@ -1,6 +1,6 @@
 package agent
 
-import "github.com/openscholar/openscholar/internal/message"
+import "github.com/Nahasma/openscholar-public/internal/message"
 
 type AgentEventType string
 

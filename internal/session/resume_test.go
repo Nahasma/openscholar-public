@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/session"
-	"github.com/openscholar/openscholar/internal/testutil"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/session"
+	"github.com/Nahasma/openscholar-public/internal/testutil"
 )
 
 func TestResumeServiceResolveLatestAndQuery(t *testing.T) {

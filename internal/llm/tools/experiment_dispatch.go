@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/llm/tools/codeagent"
-	"github.com/openscholar/openscholar/internal/research/orchestrator"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools/codeagent"
+	"github.com/Nahasma/openscholar-public/internal/research/orchestrator"
 )
 
 type experimentDispatchTool struct {

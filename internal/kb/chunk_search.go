@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/openscholar/openscholar/internal/db"
+	"github.com/Nahasma/openscholar-public/internal/db"
 )
 
 func (s *service) searchPaperChunksTitleContent(ctx context.Context, paperID, query string, limit int64) ([]db.PaperChunk, error) {

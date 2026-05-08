@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/openscholar/openscholar/internal/llm/tools"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools"
 )
 
 func TestGlobTool_MatchFiles(t *testing.T) {

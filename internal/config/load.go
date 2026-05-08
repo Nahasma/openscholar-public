@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 // Load initialises the config singleton from workingDir, merging file and env.

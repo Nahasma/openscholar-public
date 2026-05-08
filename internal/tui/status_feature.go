@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/message"
-	"github.com/openscholar/openscholar/internal/tui/components"
+	"github.com/Nahasma/openscholar-public/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/tui/components"
 )
 
 // ProcessingPhase represents the current phase of agent processing.

@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/openscholar/openscholar/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
 	"gopkg.in/yaml.v3"
 )
 

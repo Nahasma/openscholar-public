@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/llm/tools/codeagent"
+	"github.com/Nahasma/openscholar-public/internal/llm/tools/codeagent"
 )
 
 const codeAgentDescription = `Delegate coding tasks to an external AI coding agent (Claude Code, Gemini CLI, Codex, Qwen Code, Trae Agent).

@@ -1,6 +1,6 @@
 package agents
 
-import "github.com/openscholar/openscholar/internal/llm/prompt/modules"
+import "github.com/Nahasma/openscholar-public/internal/llm/prompt/modules"
 
 // NewExplorePromptModule returns the Explore Agent system prompt module.
 func NewExplorePromptModule() modules.BaseModule {

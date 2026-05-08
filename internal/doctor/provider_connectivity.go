@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/config"
-	"github.com/openscholar/openscholar/internal/llm/connectivity"
-	"github.com/openscholar/openscholar/internal/llm/minimax"
-	"github.com/openscholar/openscholar/internal/llm/models"
+	"github.com/Nahasma/openscholar-public/internal/config"
+	"github.com/Nahasma/openscholar-public/internal/llm/connectivity"
+	"github.com/Nahasma/openscholar-public/internal/llm/minimax"
+	"github.com/Nahasma/openscholar-public/internal/llm/models"
 )
 
 type MiniMaxProbe struct {

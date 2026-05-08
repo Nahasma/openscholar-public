@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 // SamplingSource distinguishes where a sampling cycle originated, preventing recursive

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/llm/prompt"
-	"github.com/openscholar/openscholar/internal/message"
+	"github.com/Nahasma/openscholar-public/internal/llm/prompt"
+	"github.com/Nahasma/openscholar-public/internal/message"
 )
 
 // ContextCategory identifies the type of context content.

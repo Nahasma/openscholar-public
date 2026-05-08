@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/openscholar/openscholar/internal/evolution"
+	"github.com/Nahasma/openscholar-public/internal/evolution"
 )
 
 type recordFeedbackTool struct {

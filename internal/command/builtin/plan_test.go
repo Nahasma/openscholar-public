@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openscholar/openscholar/internal/app"
-	"github.com/openscholar/openscholar/internal/command"
-	"github.com/openscholar/openscholar/internal/permission"
-	"github.com/openscholar/openscholar/internal/plan"
+	"github.com/Nahasma/openscholar-public/internal/app"
+	"github.com/Nahasma/openscholar-public/internal/command"
+	"github.com/Nahasma/openscholar-public/internal/permission"
+	"github.com/Nahasma/openscholar-public/internal/plan"
 )
 
 func TestPlanInspectWrapsProposedEnvelope(t *testing.T) {

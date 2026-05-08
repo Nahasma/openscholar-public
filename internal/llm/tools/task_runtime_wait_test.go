@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/task"
+	"github.com/Nahasma/openscholar-public/internal/task"
 )
 
 func TestWaitForChildTaskNotificationsUsesRegistryEvents(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/openscholar/openscholar/internal/fileop"
+	"github.com/Nahasma/openscholar-public/internal/fileop"
 )
 
 // QuotaConfig 描述 backend 的配额限制。
