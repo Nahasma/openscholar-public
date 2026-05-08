@@ -31,6 +31,20 @@ function getBinaryName() {
   return process.platform === "win32" ? "openscholar.exe" : "openscholar";
 }
 
+function normalizeSourceBinary(destDir) {
+  const extension = process.platform === "win32" ? ".exe" : "";
+  const sourceBin = path.join(destDir, `openscholar-public${extension}`);
+  const targetBin = path.join(destDir, getBinaryName());
+
+  if (fs.existsSync(sourceBin) && sourceBin !== targetBin) {
+    fs.renameSync(sourceBin, targetBin);
+  }
+
+  if (process.platform !== "win32" && fs.existsSync(targetBin)) {
+    fs.chmodSync(targetBin, 0o755);
+  }
+}
+
 function installFromSource(version) {
   const destDir = path.join(os.homedir(), ".openscholar", "bin");
   fs.mkdirSync(destDir, { recursive: true });
@@ -41,6 +55,7 @@ function installFromSource(version) {
       stdio: "inherit",
       env: { ...process.env, GOBIN: destDir },
     });
+    normalizeSourceBinary(destDir);
     console.log(`openscholar v${version} built from source into ${destDir}`);
   } catch (err) {
     console.warn(

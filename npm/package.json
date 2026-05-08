@@ -1,6 +1,6 @@
 {
   "name": "openscholar",
-  "version": "0.1.0-alpha.3",
+  "version": "0.1.0-alpha.4",
   "description": "AI-powered academic paper writing assistant",
   "bin": {
     "openscholar": "bin/openscholar.js"
@@ -13,12 +13,12 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "optionalDependencies": {
-    "@openscholar/darwin-arm64": "0.1.0-alpha.3",
-    "@openscholar/darwin-x64": "0.1.0-alpha.3",
-    "@openscholar/linux-x64": "0.1.0-alpha.3",
-    "@openscholar/linux-arm64": "0.1.0-alpha.3",
-    "@openscholar/win32-x64": "0.1.0-alpha.3",
-    "@openscholar/win32-arm64": "0.1.0-alpha.3"
+    "@openscholar/darwin-arm64": "0.1.0-alpha.4",
+    "@openscholar/darwin-x64": "0.1.0-alpha.4",
+    "@openscholar/linux-x64": "0.1.0-alpha.4",
+    "@openscholar/linux-arm64": "0.1.0-alpha.4",
+    "@openscholar/win32-x64": "0.1.0-alpha.4",
+    "@openscholar/win32-arm64": "0.1.0-alpha.4"
   },
   "license": "Apache-2.0",
   "repository": {

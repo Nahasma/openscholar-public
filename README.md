@@ -10,7 +10,7 @@ OpenScholar 目前处于 **Alpha** 阶段，优先验证论文搜索/阅读体�
 
 | 通道 | 版本示例 | 适用场景 | 稳定性承诺 |
 |------|----------|----------|------------|
-| Alpha | `v0.1.0-alpha.3` | 早期试用、功能反馈、集成验证 | 可能有破坏性变更 |
+| Alpha | `v0.1.0-alpha.4` | 早期试用、功能反馈、集成验证 | 可能有破坏性变更 |
 | Beta | `v0.1.0-beta.1` | 更广泛试用、文档和兼容性验证 | 核心 CLI/TUI 行为基本稳定 |
 | Stable | `v1.0.0` | 日常使用和下游集成 | 遵循 SemVer，避免破坏性变更 |
 
@@ -71,18 +71,24 @@ npm publish --tag beta
 
 ### 安装
 
-当前公开预览仓库为 `Nahasma/openscholar-public`。Alpha 阶段建议固定版本安装：
+当前公开预览仓库为 `Nahasma/openscholar-public`。Alpha 阶段推荐使用安装脚本固定版本安装，它会把 Go 默认生成的 `openscholar-public` 二进制规范化为 `openscholar`：
 
 ```bash
-go install github.com/Nahasma/openscholar-public@v0.1.0-alpha.3
+curl -fsSL https://raw.githubusercontent.com/Nahasma/openscholar-public/oss-alpha/scripts/install.sh | bash
 ```
 
-或从源码构建：
+也可以手动从源码构建：
 
 ```bash
 git clone https://github.com/Nahasma/openscholar-public.git
 cd openscholar-public
 go build -o openscholar .
+```
+
+如果只想使用原生 `go install`，生成的命令名会是 `openscholar-public`：
+
+```bash
+go install github.com/Nahasma/openscholar-public@v0.1.0-alpha.4
 ```
 
 npm 安装通道准备好后可使用：
