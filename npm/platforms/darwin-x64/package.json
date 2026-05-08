@@ -1,0 +1,10 @@
+{
+  "name": "@openscholar/darwin-x64",
+  "version": "0.0.0",
+  "description": "openscholar binary for macOS x64",
+  "os": ["darwin"],
+  "cpu": ["x64"],
+  "files": ["openscholar"],
+  "license": "Apache-2.0",
+  "preferUnplugged": true
+}

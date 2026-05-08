@@ -1,0 +1,10 @@
+{
+  "name": "@openscholar/win32-arm64",
+  "version": "0.0.0",
+  "description": "openscholar binary for Windows ARM64",
+  "os": ["win32"],
+  "cpu": ["arm64"],
+  "files": ["openscholar.exe"],
+  "license": "Apache-2.0",
+  "preferUnplugged": true
+}

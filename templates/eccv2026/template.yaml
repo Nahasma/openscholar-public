@@ -1,0 +1,17 @@
+name: eccv2026
+description: ECCV 2026 Conference Paper Template
+conference: ECCV
+year: 2026
+page_limit: 14
+anonymous: true
+compiler: pdflatex
+bib_style: natbib
+files:
+  - main.tex
+  - sections/abstract.tex
+  - sections/introduction.tex
+  - sections/related_work.tex
+  - sections/method.tex
+  - sections/experiments.tex
+  - sections/conclusion.tex
+  - refs.bib

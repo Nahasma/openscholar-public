@@ -1,0 +1,12 @@
+name: generic-markdown
+description: Generic Academic Paper (Markdown/Pandoc)
+format: markdown
+files:
+  - main.md
+  - sections/abstract.md
+  - sections/introduction.md
+  - sections/related_work.md
+  - sections/method.md
+  - sections/experiments.md
+  - sections/conclusion.md
+  - refs.bib

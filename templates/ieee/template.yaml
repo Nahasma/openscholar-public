@@ -1,0 +1,17 @@
+name: ieee
+description: IEEE Generic Conference/Journal Template
+conference: IEEE
+year: 2026
+page_limit: 8
+anonymous: false
+compiler: pdflatex
+bib_style: natbib
+files:
+  - main.tex
+  - sections/abstract.tex
+  - sections/introduction.tex
+  - sections/related_work.tex
+  - sections/method.tex
+  - sections/experiments.tex
+  - sections/conclusion.tex
+  - refs.bib

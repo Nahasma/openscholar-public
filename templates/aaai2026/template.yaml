@@ -1,0 +1,17 @@
+name: aaai2026
+description: AAAI 2026 Conference Paper Template
+conference: AAAI
+year: 2026
+page_limit: 7
+anonymous: true
+compiler: pdflatex
+bib_style: natbib
+files:
+  - main.tex
+  - sections/abstract.tex
+  - sections/introduction.tex
+  - sections/related_work.tex
+  - sections/method.tex
+  - sections/experiments.tex
+  - sections/conclusion.tex
+  - refs.bib

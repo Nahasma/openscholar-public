@@ -1,0 +1,40 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+
+\title{Your Paper Title}
+
+\author{
+  Author Name \\
+  Department of Computer Science \\
+  University Name \\
+  \texttt{author@university.edu}
+}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/method}
+\input{sections/experiments}
+\input{sections/conclusion}
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}

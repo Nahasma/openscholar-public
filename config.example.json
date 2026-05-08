@@ -1,0 +1,303 @@
+{
+  "_comment": "OpenScholar 配置文件示例 — 复制到 .openscholar/config.json 并按需修改；paths 可启用分层运行时存储",
+  "_version": "v2.0",
+
+  "paths": {
+    "_comment": "Typed storage roots. Relative paths are resolved from the project working directory.",
+    "root": ".openscholar",
+    "config": ".openscholar/config",
+    "state": ".openscholar/state",
+    "extensions": ".openscholar/extensions",
+    "cache": ".openscholar/cache",
+    "logs": ".openscholar/logs",
+    "runtime": ".openscholar/runtime"
+  },
+
+  "data": {
+    "_comment": "Legacy flat data root. Kept for backward compatibility with existing projects.",
+    "directory": ".openscholar"
+  },
+
+  "defaultProvider": "anthropic",
+  "imageProvider": "minimax",
+
+  "providers": {
+    "anthropic": {
+      "apiKey": "sk-ant-xxx",
+      "_comment": "也可通过 ANTHROPIC_API_KEY 环境变量设置"
+    },
+    "openai": {
+      "apiKey": "sk-xxx",
+      "_comment": "也可通过 OPENAI_API_KEY 环境变量设置"
+    },
+    "deepseek": {
+      "apiKey": "sk-xxx",
+      "baseURL": "https://api.deepseek.com/v1",
+      "_comment": "也可通过 DEEPSEEK_API_KEY 环境变量设置"
+    },
+    "minimax": {
+      "apiKey": "sk-xxx",
+      "profile": "token-plan",
+      "authMode": "bearer",
+      "_comment": "也可通过 MINIMAX_API_KEY 环境变量设置；legacy 可设 profile=legacy 或 authMode=anthropic_x_api_key"
+    },
+    "glm": {
+      "apiKey": "xxx.yyy",
+      "_comment": "智谱 API Key，也可通过 GLM_API_KEY 环境变量设置"
+    },
+    "siliconflow": {
+      "apiKey": "sk-xxx",
+      "_comment": "硅基流动 API Key，也可通过 SILICONFLOW_API_KEY 环境变量设置"
+    },
+    "openai_compatible": {
+      "apiKey": "sk-xxx",
+      "baseURL": "https://your-server.com/v1",
+      "model": "your-model-name",
+      "_comment": "兼容 OpenAI API 的第三方服务（如 vLLM、LiteLLM）"
+    },
+    "ollama": {
+      "baseURL": "http://localhost:11434",
+      "_comment": "本地 Ollama 服务，也可通过 OLLAMA_BASE_URL 环境变量设置"
+    },
+    "vllm": {
+      "baseURL": "http://localhost:8000",
+      "_comment": "本地 vLLM 服务，也可通过 VLLM_BASE_URL 环境变量设置"
+    }
+  },
+
+  "agents": {
+    "_comment_agents": "每个 Agent 可单独配置 provider 和 model，未配置的字段继承 defaultProvider 的默认值",
+
+    "coder": {
+      "_comment": "主 Agent — 论文写作、编辑、编译的全功能引擎",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-20250514",
+      "maxTokens": 16384
+    },
+    "leader": {
+      "_comment": "科研团队 Leader — 纯编排，不直接写文件（research 模式自动启用）",
+      "provider": "anthropic",
+      "model": "claude-opus-4-20250514",
+      "maxTokens": 16384
+    },
+    "general": {
+      "_comment": "通用子 Agent — Task 工具默认派遣类型，拥有全部工具",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-20250514",
+      "maxTokens": 8192
+    },
+    "explore": {
+      "_comment": "探索子 Agent — 只读（View/Glob/Grep），用于快速检索",
+      "provider": "anthropic",
+      "model": "claude-3-5-haiku-20241022",
+      "maxTokens": 8192
+    },
+    "summarizer": {
+      "_comment": "上下文压缩 Agent — 长对话自动摘要",
+      "model": "claude-3-5-haiku-20241022",
+      "maxTokens": 8192
+    },
+    "title": {
+      "_comment": "标题生成 Agent — 自动为会话生成标题",
+      "model": "claude-3-5-haiku-20241022",
+      "maxTokens": 80
+    }
+  },
+
+  "mcp_servers": [
+    {
+      "_comment": "Codex CLI（OpenAI 编程工具）— 实验阶段通过 MCP 调用",
+      "name": "codex",
+      "command": "codex",
+      "args": ["--mcp"]
+    },
+    {
+      "_comment": "Claude Code（Anthropic 编程工具）— 可作为实验阶段的编码后端",
+      "name": "claude-code",
+      "command": "claude",
+      "args": ["mcp", "serve"]
+    },
+    {
+      "_comment": "自定义 MCP Server 示例（SSE 模式）",
+      "name": "custom-server",
+      "url": "http://localhost:3000/sse",
+      "env": ["CUSTOM_API_KEY=xxx"]
+    }
+  ],
+
+  "code_agent": {
+    "_comment": "外部编码 Agent 配置 — 通过 CodeAgent 工具委派编码任务给 AI 编程 CLI",
+    "preferred": "claude",
+    "timeout_seconds": 300,
+    "providers": {
+      "claude": {
+        "allowed_tools": "Read,Edit,Write,Bash,Glob,Grep",
+        "max_turns": 20
+      },
+      "gemini": {},
+      "codex": {}
+    }
+  },
+
+  "web": {
+    "_comment": "联网搜索配置 — 多搜索源按优先级轮转，quota 用完自动切换",
+    "searchMaxUses": 8,
+    "fetchCacheTtlMinutes": 15,
+    "fetchMaxResponseMB": 10,
+    "fetchMaxMarkdownChars": 100000,
+    "searchBackends": [
+      {
+        "_comment": "SearXNG — 自建元搜索引擎，完全免费无限额度",
+        "name": "searxng",
+        "enabled": true,
+        "priority": 0,
+        "baseURL": "http://localhost:8080"
+      },
+      {
+        "_comment": "Brave Search — 免费 1000 次/月，也可通过 BRAVE_API_KEY 环境变量设置",
+        "name": "brave",
+        "enabled": true,
+        "priority": 1,
+        "apiKey": "",
+        "monthlyLimit": 1000
+      },
+      {
+        "_comment": "Tavily — AI 原生搜索，免费 1000 次/月，支持原生域名过滤，也可通过 TAVILY_API_KEY 环境变量设置",
+        "name": "tavily",
+        "enabled": true,
+        "priority": 2,
+        "apiKey": "",
+        "monthlyLimit": 1000
+      },
+      {
+        "_comment": "DuckDuckGo — 公开 HTML 抓取，免费无限但不稳定，作为免费兜底",
+        "name": "duckduckgo",
+        "enabled": true,
+        "priority": 5
+      },
+      {
+        "_comment": "Startpage — Google 结果的隐私代理，HTML 抓取，免费无限",
+        "name": "startpage",
+        "enabled": true,
+        "priority": 6
+      },
+      {
+        "_comment": "Bing — HTML 抓取，免费无限，DDG 和 Startpage 都失败后的备选",
+        "name": "bing",
+        "enabled": true,
+        "priority": 7
+      },
+      {
+        "_comment": "Anthropic 原生搜索 — 按 token 计费，maxUses=1 控制成本，作为最后兜底",
+        "name": "anthropic",
+        "enabled": true,
+        "priority": 10,
+        "maxUses": 1
+      },
+      {
+        "_comment": "OpenAI 原生搜索 — 按 token 计费，不支持域名过滤",
+        "name": "openai",
+        "enabled": true,
+        "priority": 11
+      }
+    ]
+  },
+
+  "_web_config_scenarios": {
+    "_comment": "常见配置场景参考",
+    "零配置白嫖": "不配置 web 字段 → 自动 DDG + LLM 原生兜底",
+    "环境变量白嫖": "export BRAVE_API_KEY=xxx → 自动发现，无需配置",
+    "SearXNG 无限白嫖": "export SEARXNG_URL=http://localhost:8080 → 自建无限搜索",
+    "混合白嫖": "Brave + Tavily + DDG = 2000+ 次/月免费搜索",
+    "禁用付费兜底": "把 anthropic 和 openai 的 enabled 设为 false",
+    "仅 LLM 原生": "只保留 anthropic 和 openai，删除其他 backend"
+  },
+
+  "paper_type": "research",
+
+  "harness": {
+    "micro_compact_enabled": true,
+    "micro_compact_keep_recent": 3,
+    "auto_compact_buffer_tokens": 13000,
+    "compact_blocking_buffer_tokens": 3000,
+    "_comment_auto_compact_threshold_ratio": "deprecated compatibility knob; prefer absolute buffer tokens"
+  },
+
+  "debug": false,
+  "sessionLog": false,
+
+  "_supported_models": {
+    "_comment": "以下为所有支持的 model ID，供 agents.*.model 字段参考",
+    "anthropic": [
+      "claude-opus-4-20250514",
+      "claude-sonnet-4-20250514",
+      "claude-3-5-haiku-20241022"
+    ],
+    "openai": [
+      "gpt-4.1",
+      "gpt-4.1-mini",
+      "o4-mini"
+    ],
+    "deepseek": [
+      "deepseek-chat",
+      "deepseek-reasoner"
+    ],
+    "minimax": [
+      "MiniMax-M2.7",
+      "MiniMax-M2.7-highspeed",
+      "MiniMax-M2.5",
+      "MiniMax-M2.5-highspeed"
+    ],
+    "glm": [
+      "glm-5",
+      "glm-5-turbo",
+      "glm-4.7",
+      "glm-4.6"
+    ],
+    "siliconflow": [
+      "deepseek-ai/DeepSeek-V3",
+      "deepseek-ai/DeepSeek-R1",
+      "Qwen/Qwen3.5-397B-A17B",
+      "Qwen/Qwen3.5-122B-A10B",
+      "Qwen/Qwen3.5-27B"
+    ],
+    "ollama_and_vllm": "动态模型 — 填写 Ollama/vLLM 中已下载的模型名即可",
+    "openai_compatible": "自定义模型 — 填写服务端支持的模型名"
+  },
+
+  "_research_team_config": {
+    "_comment": "科研团队模式推荐配置 — Leader 用 Opus 做决策，Worker 按任务类型选模型",
+    "recommended": {
+      "leader": { "model": "claude-opus-4-20250514", "_role": "编排决策" },
+      "general": { "model": "claude-sonnet-4-20250514", "_role": "写作/深度阅读" },
+      "explore": { "model": "claude-3-5-haiku-20241022", "_role": "文献检索/快速评估" }
+    },
+    "budget_friendly": {
+      "leader": { "model": "claude-sonnet-4-20250514" },
+      "general": { "model": "claude-3-5-haiku-20241022" },
+      "explore": { "model": "claude-3-5-haiku-20241022" }
+    },
+    "local_only": {
+      "leader": { "provider": "ollama", "model": "qwen2.5:32b" },
+      "general": { "provider": "ollama", "model": "qwen2.5:14b" },
+      "explore": { "provider": "ollama", "model": "qwen2.5:7b" }
+    }
+  },
+
+  "_env_vars": {
+    "_comment": "以下环境变量会覆盖 config.json 中对应 provider 的 apiKey",
+    "ANTHROPIC_API_KEY": "anthropic provider",
+    "OPENAI_API_KEY": "openai provider",
+    "DEEPSEEK_API_KEY": "deepseek provider",
+    "MINIMAX_API_KEY": "minimax provider",
+    "GLM_API_KEY": "glm provider",
+    "SILICONFLOW_API_KEY": "siliconflow provider",
+    "OLLAMA_BASE_URL": "ollama baseURL",
+    "VLLM_BASE_URL": "vllm baseURL",
+    "OPENAI_COMPATIBLE_API_KEY": "openai_compatible provider",
+    "OPENAI_COMPATIBLE_BASE_URL": "openai_compatible baseURL",
+    "BRAVE_API_KEY": "web.searchBackends brave apiKey",
+    "TAVILY_API_KEY": "web.searchBackends tavily apiKey",
+    "SEARXNG_URL": "web.searchBackends searxng baseURL"
+  }
+}

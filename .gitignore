@@ -1,0 +1,116 @@
+# Local OpenScholar runtime state
+/.openscholar/
+
+# Local agent and AI tool development surfaces
+/AGENTS.md
+/CLAUDE.md
+/codex-audit-list.md
+/.agent/
+/.agents/
+/.claude/
+/.codex/
+
+# Development/reference docs and scratch work
+/docs/
+/ref/
+/tmp/
+/temp/
+/mydocs/
+/research-*-????????-????-????-????-????????????/
+
+# Environment and secrets
+/.env
+/.env.*
+!/.env.example
+!/.env.sample
+!/.env.template
+!/.env.*.example
+!/.env.*.sample
+!/.env.*.template
+/.envrc
+/.direnv/
+/.npmrc
+/.pypirc
+/config.local.json
+/config.*.local.json
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p12
+*.jks
+*.keystore
+*.mobileprovision
+credentials*
+secrets*
+/.aws/
+/.azure/
+/.gcloud/
+/*.kubeconfig
+
+# Go build, test, cache, and profiling artifacts
+/openscholar
+!/openscholar/
+/openscholar.exe
+/*.test
+/coverage.out
+/coverage.html
+/*.out
+/*.prof
+/*.pprof
+/*.trace
+/.gocache/
+/.gomodcache/
+
+# Python cache artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Release and npm package artifacts
+/dist/
+/build/
+/bin/
+/npm/LICENSE
+/npm/*.tgz
+/npm/platforms/*/LICENSE
+/npm/platforms/*/*.tgz
+/npm/platforms/*/openscholar
+/npm/platforms/*/openscholar.exe
+
+# Frontend dependencies and build artifacts
+node_modules/
+/web/node_modules/
+/web/dist/
+/web/dist-ssr/
+/web/.vite/
+/internal/server/dist/
+
+# Local SQLite/database artifacts at repo root
+/*.db
+/*.db-journal
+/*.db-wal
+/*.db-shm
+/*.sqlite
+/*.sqlite3
+
+# Local research/runtime artifacts
+/.aris/
+/.openscholar-downloads.jsonl
+
+# Logs at repo root and common log files
+/logs/
+/*.log
+*.log
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~

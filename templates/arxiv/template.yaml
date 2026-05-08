@@ -1,0 +1,13 @@
+name: arxiv
+description: arXiv Preprint Template
+conference: arXiv
+year: 2026
+files:
+  - main.tex
+  - sections/abstract.tex
+  - sections/introduction.tex
+  - sections/related_work.tex
+  - sections/method.tex
+  - sections/experiments.tex
+  - sections/conclusion.tex
+  - refs.bib

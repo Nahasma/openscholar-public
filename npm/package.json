@@ -1,0 +1,36 @@
+{
+  "name": "openscholar",
+  "version": "0.0.0",
+  "description": "AI-powered academic paper writing assistant",
+  "bin": {
+    "openscholar": "bin/openscholar.js"
+  },
+  "files": [
+    "bin/",
+    "scripts/"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "optionalDependencies": {
+    "@openscholar/darwin-arm64": "0.0.0",
+    "@openscholar/darwin-x64": "0.0.0",
+    "@openscholar/linux-x64": "0.0.0",
+    "@openscholar/linux-arm64": "0.0.0",
+    "@openscholar/win32-x64": "0.0.0",
+    "@openscholar/win32-arm64": "0.0.0"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openscholar/openscholar.git"
+  },
+  "keywords": [
+    "academic",
+    "paper",
+    "writing",
+    "latex",
+    "ai",
+    "assistant"
+  ]
+}

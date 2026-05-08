@@ -1,0 +1,5 @@
+  [38;5;245m⏺[0m [48;5;255m [0m[38;5;16;48;5;255mExplain transformer architecture briefly.[0m[48;5;255m [0m
+
+  [1;38;5;170m⏺[0m The Transformer architecture, introduced in "Attention is All You Need", relies on self-
+    attention mechanisms. The key components include
+    [38;5;173m▌[0m
